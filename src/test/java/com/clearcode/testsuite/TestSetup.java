@@ -23,7 +23,7 @@ public class TestSetup {
 		wdu.initialize();
 	}
 	
-	@BeforeMethod
+	@BeforeClass
 	public void loadUrl() {
 		wdu.launchUrl();
 	}

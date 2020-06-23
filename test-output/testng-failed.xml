@@ -3,14 +3,15 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.clearcode.testsuite.TestSuite1">
+      <class name="com.clearcode.testsuite.FilterProducts">
         <methods>
           <include name="launch"/>
           <include name="close"/>
+          <include name="FilterbyName"/>
+          <include name="FilterbyModel"/>
           <include name="loadUrl"/>
-          <include name="searchPatient"/>
         </methods>
-      </class> <!-- com.clearcode.testsuite.TestSuite1 -->
+      </class> <!-- com.clearcode.testsuite.FilterProducts -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
