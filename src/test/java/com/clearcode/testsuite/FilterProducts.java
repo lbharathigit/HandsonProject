@@ -29,5 +29,6 @@ public void FilterbyModel(String model, String status, String qty) {
 	wdu.type(FilterProd.Model, model);
 	wdu.type(FilterProd.Qty, qty);
 	wdu.click(FilterProd.Fltr_btn);
+	
 }
 }
